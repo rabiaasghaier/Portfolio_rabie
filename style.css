@@ -22,7 +22,7 @@ header {
   padding: 36px 100px;
   background-image: url(asset/model_bw.png);
   background-position: right;
-  background-size:46% 100%;
+  background-size:50% 100%;
 
   background-repeat: no-repeat;
   width: 100vw;
@@ -474,3 +474,19 @@ header nav .search i {
     color: inherit; /* Utilisez la couleur du texte du parent */
     text-decoration: none; /* Supprimez le soulignement du lien */
   }
+
+  /* Pour les écrans de petite taille (téléphones) */
+@media (max-width: 768px) {
+  /* Réorganiser la mise en page si nécessaire */
+  header {
+    padding: 20px;
+  }
+  .landing .intro h3 {
+    font-size: 24px;
+  }
+  /* Ajoutez d'autres styles spécifiques aux téléphones ici */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
